@@ -24,6 +24,8 @@ app.use(cors());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+const app =express()
+const port =process.env.PORT || 4000;
 
 
 
